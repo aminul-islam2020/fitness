@@ -19,9 +19,6 @@
 .menu-items li{
     padding: 10px;
 }
-.company-logo{
-   
-}
 .banner-container{
     color: white;
     display: flex;
@@ -56,4 +53,37 @@
 img{
     height: 600px;
     width: 600px;
+}
+.section-two{
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-1{
+    width: 350px;
+    height: 250px;
+    border: 1px solid grey;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+}
+.card-1:hover{
+    border: 1px solid red;
+    margin-top: -20px;
+    transition: .8ms;
+}
+.title-2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.gym-icon{
+    width: 50px;
+    height: 50px;
 }
